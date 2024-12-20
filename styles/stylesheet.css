@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerPlaceholder {
+    visibility: hidden;
+    margin-bottom: 5vh;
+}
+
+.wholeContainer {
+    width: calc(100% - 192px);
+    height: auto;
+    padding: 96px 162px;
+    background-color: #E4EBFF;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    width: 100%;
+    background-color: #FFF;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.mainContainer>div:first-child {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 96px;
+}
+
+
+.mainContainer>div:first-child p:first-child {
+    font-family: Inter;
+    text-align: center;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    color: #6941C6;
+    padding-bottom: 12px;
+}
+
+.mainContainer>div:first-child p:nth-child(2) {
+    color: #181D27;
+    text-align: center;
+    letter-spacing: -0.8px;
+    font-size: 40px;
+    line-height: 44px;
+    font-family: "Inknut Antiqua";
+    padding-bottom: 32px;
+}
+
+.mainContainer>div:first-child p:last-child {
+    color: #535862;
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inboxContainer {
+    padding-bottom: 96px;
+    height: auto;
+}
+
+.inboxOne {
+    padding: 89px 0px 89px 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 101px;
+}
+
+
+
+.inboxOne>div:first-child {
+    margin-bottom: 32px;
+}
+
+.inboxOne>div:first-child img {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.inboxOne>div:first-child p:first-of-type {
+    font-size: 30px;
+    line-height: 38px;
+    color: #181D27;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+.inboxOne>div:first-child p:last-child {
+    color: #535862;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.inboxOne>div:first-child p:last-child span {
+    display: block;
+}
+
+
+
+ 
